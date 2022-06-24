@@ -51,10 +51,10 @@ public class BaseClass {
 	public void launchBrowser() throws Throwable
 	//public void launchBrowser(String Browser) throws Throwable
 	{
-		String Browser = System.getProperty("browser");
-		String url = System.getProperty("url");
-		//String Browser=fLib.getPropertyKeyValue("browser");
-		//String url=fLib.getPropertyKeyValue("url");
+		//String Browser = System.getProperty("browser");
+		//String url = System.getProperty("url");
+		String Browser=fLib.getPropertyKeyValue("browser");
+		String url=fLib.getPropertyKeyValue("url");
 		
 		if(Browser.equalsIgnoreCase("chrome"))
 		{

@@ -59,7 +59,7 @@ public class CreateContactsTest extends BaseClass {
 		//create contact code..
 		HomePage hPage=new HomePage(driver);
 		hPage.getContactLink().click();
-		Assert.fail();
+		
 		
 		CreateContactPage cContact=new CreateContactPage(driver);
 		cContact.clickOnCreateNewContackLkImg();
