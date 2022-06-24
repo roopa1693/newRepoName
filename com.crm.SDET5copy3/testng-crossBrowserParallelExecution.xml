@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+<listeners>
+<listener class-name="com.crm.comcast.genericUtilities.RetryImpClass">
+</listener>
+</listeners>
+  <test name="TestRunner1">
+  <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="com.crm.contactOrg.CreateContactsTest"/>
+      <class name="com.crm.contactOrg.ContactWithOrgTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestRunner2">
+   <parameter name="BROWSER" value="firefox"/>
+    <classes>
+     <class name="com.crm.organization.CreateOrganizationTest"/>
+       <class name="com.crm.organization.OrganisationWithIndustryTest"/>
+ </classes>
+  </test>
+</suite> <!-- Suite -->

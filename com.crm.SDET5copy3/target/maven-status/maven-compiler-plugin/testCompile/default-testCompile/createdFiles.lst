@@ -1,0 +1,8 @@
+com\crm\contacts\CreateContactWithGroupSelectTest.class
+com\crm\organization\OrganisationWithIndustryTest.class
+com\crm\contactOrg\ContactWithOrgTest.class
+com\crm\contacts\CreateContactWithTeamGroupSelectTest.class
+com\crm\contactOrg\CreateContactsTest.class
+com\crm\organization\CreateOrganizationTest.class
+com\crm\contacts\CreateContactTest.class
+com\crm\contacts\CreateContactWithAdminSelectTest.class
