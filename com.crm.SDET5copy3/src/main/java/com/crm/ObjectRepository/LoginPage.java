@@ -20,6 +20,7 @@ public class LoginPage {
 	private WebElement passwordTxtEdit;
 
 	@FindBy(id="submitButton")
+	@FindAll({@FindBy(xpath="//input[@type='submit']"),@FindBy(id="submitButton")})
 	private WebElement submitBtn;
 
 	public LoginPage(WebDriver driver) 
