@@ -19,7 +19,7 @@ public class LoginPage {
 	@FindAll({@FindBy(xpath="//input[@type='password']"),@FindBy(name="user_password")})
 	private WebElement passwordTxtEdit;
 
-	@FindBy(id="submitButton")
+	//@FindBy(id="submitButton")
 	@FindAll({@FindBy(xpath="//input[@type='submit']"),@FindBy(id="submitButton")})
 	private WebElement submitBtn;
 
