@@ -248,14 +248,16 @@ public class WebDriverUtility
 	 * it is used to take screen shot
 	 * @param driver
 	 * @param screenShotName
+	 * @return 
 	 * @throws Throwable 
 	 */
-	public static void takeScreenShot(WebDriver driver,String screenShotName) throws Throwable
+	public static String takeScreenShot(WebDriver driver,String screenShotName) throws Throwable
 	{
 		TakesScreenshot t=(TakesScreenshot) driver;
 		File src=t.getScreenshotAs(OutputType.FILE);
 		File dest = new File("./ScreenShot/"+screenShotName+".png");
 		Files.copy(src,dest);
+		return screenShotName;
 	}
 	/**
 	 * it is used to perform scroll bar action

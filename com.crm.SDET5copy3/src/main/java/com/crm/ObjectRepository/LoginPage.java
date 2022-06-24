@@ -9,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 
 	@FindBys({@FindBy(xpath="//input[@type='text']"),@FindBy(name="user_name")})
-	
 	private WebElement userNameTxtEdit;
 
 	@FindBy(name="user_password")
