@@ -13,7 +13,7 @@ import com.crm.comcast.genericUtilities.BaseClass;
 public class ContactWithOrgTest extends BaseClass{
 	//@Test(groups = "regressionTest")
 	@Test(retryAnalyzer = com.crm.comcast.genericUtilities.RetryImpClass.class)
-	public void contactWithOrgTest1() throws Throwable {
+	public void contactWithOrgTest() throws Throwable {
 		
 		//generate random numbers..
 		int ranNum=jLib.generateRandomNumber(); 
