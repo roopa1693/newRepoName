@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-21T12:22:37 IST" name="Default suite" finished-at="2022-06-21T12:23:56 IST" duration-ms="78562">
+  <suite started-at="2022-06-24T12:19:51 IST" name="Default suite" finished-at="2022-06-24T12:23:02 IST" duration-ms="190895">
     <groups>
     </groups>
-    <test started-at="2022-06-21T12:22:37 IST" name="Default test" finished-at="2022-06-21T12:23:56 IST" duration-ms="78562">
+    <test started-at="2022-06-24T12:19:51 IST" name="Default test" finished-at="2022-06-24T12:23:02 IST" duration-ms="190895">
       <class name="com.crm.contactOrg.ContactWithOrgTest">
-        <test-method is-config="true" signature="dbConnect()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-21T12:22:37 IST" name="dbConnect" finished-at="2022-06-21T12:22:37 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="dbConnect()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-24T12:19:51 IST" name="dbConnect" finished-at="2022-06-24T12:19:51 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConnect -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-21T12:22:38 IST" name="launchBrowser" finished-at="2022-06-21T12:22:58 IST" duration-ms="20017" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-24T12:19:51 IST" name="launchBrowser" finished-at="2022-06-24T12:20:28 IST" duration-ms="37280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-21T12:22:58 IST" name="loginToAppln" finished-at="2022-06-21T12:23:04 IST" duration-ms="5998" status="PASS">
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-24T12:20:29 IST" name="loginToAppln" finished-at="2022-06-24T12:21:18 IST" duration-ms="49383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppln -->
-        <test-method signature="contactWithOrgTest1()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-21T12:23:04 IST" name="contactWithOrgTest1" finished-at="2022-06-21T12:23:47 IST" duration-ms="43087" status="PASS">
+        <test-method signature="contactWithOrgTest1()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-24T12:21:18 IST" name="contactWithOrgTest1" finished-at="2022-06-24T12:22:52 IST" duration-ms="94284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactWithOrgTest1 -->
-        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-21T12:23:47 IST" name="logOutFromApplication" finished-at="2022-06-21T12:23:53 IST" duration-ms="5397" status="PASS">
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-24T12:22:53 IST" name="logOutFromApplication" finished-at="2022-06-24T12:23:01 IST" duration-ms="8207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromApplication -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-21T12:23:53 IST" name="closeTheBrowser" finished-at="2022-06-21T12:23:56 IST" duration-ms="3406" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-24T12:23:01 IST" name="closeTheBrowser" finished-at="2022-06-24T12:23:02 IST" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method is-config="true" signature="closeDBConfig()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-21T12:23:56 IST" name="closeDBConfig" finished-at="2022-06-21T12:23:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDBConfig()[pri:0, instance:com.crm.contactOrg.ContactWithOrgTest@f0da945]" started-at="2022-06-24T12:23:02 IST" name="closeDBConfig" finished-at="2022-06-24T12:23:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBConfig -->
